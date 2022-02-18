@@ -1,4 +1,4 @@
-# Airline Emission Calculations
+# Aviation Emissions Calculation
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -25,3 +25,12 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
