@@ -87,11 +87,11 @@ Created By: [Andy Eskenazi](https://www.linkedin.com/in/andy-eskenazi), [Landon 
 If you find our tool useful, please cite our [paper]():
   ```sh
   @article{demoAviationEmissionsEst,
-title={Democratizing Aviation Emissions Estimation:
-Development of an Open-Source, Data-Driven Methodology},
-author={Eskenazi, Andy and Butler, Landon and Joshi, Arnav, and Ryerson, Megn},
-journal={arXiv preprint arXiv:XXXX.XXXXX},
-year={2022}
+    title={Democratizing Aviation Emissions Estimation:
+    Development of an Open-Source, Data-Driven Methodology},
+    author={Eskenazi, Andy and Butler, Landon and Joshi, Arnav, and Ryerson, Megn},
+    journal={arXiv preprint arXiv:XXXX.XXXXX},
+    year={2022}
 }
   ```
 
