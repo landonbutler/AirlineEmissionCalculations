@@ -34,14 +34,14 @@ where &lt;YEAR&gt; and &lt;MONTH&gt; is the period of flights you'd like to calc
 </div>
 For more in-depth analysis, we also provide our Matlab source code. A description of each script is provided below:
 
-#### flight_emissions:
-Calculates the emissions of a particular airplane/tail-number for the provided conditions. It allows the user to input tail-number, the LTO standard times and the total CCD time, and returns back the flight's CO2, CO2e and the average carbon footprint.
+#### emissions_calc:
+This function calculates the emissions of a flight given a prescribed set of inputs. Incorporates both the emissions factors for the LTO and CCD flight stages.
 
 #### emissions_city_pair:
 Calculates the emissions of a particular city pair. As such, the user only needs to input the standard IATA airport code for the origin and destination. The code outputs data that includes: average flight time, departure/arrival delays, airplane types operated, number of seats offered, number of flights offered, as well as the emissions. The data can be seen on an airline-by-airline as well as day-of-the-week basis.
 
-#### emissions_calc:
-This function calculates the emissions of a flight given a prescribed set of inputs. Incorporates both the emissions factors for the LTO and CCD flight stages.
+#### flight_emissions:
+Calculates the emissions of a particular airplane/tail-number for the provided conditions. It allows the user to input tail-number, the LTO standard times and the total CCD time, and returns back the flight's CO2, CO2e and the average carbon footprint.
 
   
 <!-- DATASETS -->
