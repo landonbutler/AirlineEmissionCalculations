@@ -13,12 +13,15 @@
     <li><a href="#results">Results</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#citation">Citation</a></li>
   </ol>
 </details>
 
 <!-- ABOUT -->
 ## About the Project
 Enabled through an aviation emissions estimation tool that is both publicly-accessible and comprehensive, together we can help shape a more sustainable and equitable U.S. air transportation system. This calculator provide emissions estimates for every U.S. domestic flight (as provided by BTS' On-Time data) by matching each airplane's tail number to the equipped engine, which allows us to consider the particular emission factors by time in each stage of flight. Overall, this estimation tool utilizes and integrates six different public datasets provided by the Bureau of Transportation Statistics (BTS), the Federal Aviation Agency (FAA), EUROCONTROL, and the International Civil Aviation Organization (ICAO) to. Additionally, our calculator computes the emissions of four different greenhouse gases (CO2, NOx, CO, HC) during both the LTO and CCD flight cycles. This repository not only contains an easy-to-use Python script to calculate emissions for every domestic flight in a month of your choosing, but also the source Matlab code which contains more in-depth analysis tools. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE  -->
 ## Usage
@@ -42,7 +45,7 @@ Calculates the emissions of a particular city pair. As such, the user only needs
 
 #### flight_emissions:
 Calculates the emissions of a particular airplane/tail-number for the provided conditions. It allows the user to input tail-number, the LTO standard times and the total CCD time, and returns back the flight's CO2, CO2e and the average carbon footprint.
-
+<p align="right">(<a href="#top">back to top</a>)</p>
   
 <!-- DATASETS -->
 ## Datasets
