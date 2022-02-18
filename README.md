@@ -1,5 +1,8 @@
-# Aviation Emissions Calculation
 <div id="top"></div>
+<div align="center">
+  <h1 align="center">Aviation Emissions Calculation</h1>
+  <img src="images/logo.png" alt="Logo" width="80" height="80">
+</div>
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
