@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Engine Emissions Calculator - Master Script 4                          %
+% Engine Emissions Calculator - emissions_city_pair                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % This code calculates the greenhouse gas emissions for a particular route
 % operated during the month of September 2021. The reporting airlines are: PSA
