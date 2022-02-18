@@ -81,3 +81,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Created By: [Andy Eskenazi](https://www.linkedin.com/in/andy-eskenazi), [Landon Butler](https://landonbutler.github.io/), [Arnav Joshi](https://www.linkedin.com/in/arnavjoshi64)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CITATION -->
+## Citation
+If you find our tool useful, please cite our [paper]():
+  ```sh
+  @article{demoAviationEmissionsEst,
+title={Democratizing Aviation Emissions Estimation:
+Development of an Open-Source, Data-Driven Methodology},
+author={Eskenazi, Andy and Butler, Landon and Joshi, Arnav, and Ryerson, Megn},
+journal={arXiv preprint arXiv:XXXX.XXXXX},
+year={2022}
+}
+  ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
