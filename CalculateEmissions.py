@@ -310,7 +310,7 @@ def emissions_batch(onTime, ENGtableDict, LTOtableDict, CCDtable, backupDict, ai
 
 def readReferenceTables(onTime):
     # Downloads Aircraft Information
-    aircraft = pd.read_csv('ReferenceTables/AircraftByAirline.csv')
+    aircraft = pd.read_csv('ReferenceTables/Aircraft By Airline.csv')
     # Keeps latest reported aircraft
     aircraft = aircraft[aircraft['YEAR'] == 2020]
 
@@ -337,7 +337,7 @@ def readReferenceTables(onTime):
                                             'FAA Engine Code': int(row['FAA Engine Code (Complete)'])}
 
     # Loads in LTO Backup information for Ambiguous Flights
-    backup = pd.read_excel('ReferenceTables/lto_backup.xlsx')
+    backup = pd.read_excel('ReferenceTables/LTO Backup.xlsx')
     backupDict = backup.set_index('Standard Code').to_dict()
 
     return aircraftManufacture, LTOtableDict, CCDtable, ENGtableDict, backupDict
@@ -375,6 +375,9 @@ if __name__ == '__main__':
 
     # Saves to Results directory
     print('Emissions Calculations Finished!')
+    if not os.path.exists('Results'):
+        os.makedirs('Results')
     saveLoc = f'Results/OnTimeEmissions{YEAR}_{MONTH}.csv'
     print(f'Saving to {saveLoc}')
     onTimeEmissions.to_csv(saveLoc)
+    print('Complete!')
