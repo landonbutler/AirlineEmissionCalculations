@@ -52,7 +52,7 @@ Contains the FAA engine code associated with every registered aircraft in the Un
 <!-- Results -->
 ## Results
 <div align="center">
-  <img src="Images/LTOEmissionsByAirport.JPG" alt="Logo" height="250">
+  <img src="Images/LTOEmissionsByAirport.JPG" alt="Logo" height="330">
   <br />
   Figure 1: Local LTO emissions produced at every airport of the United States during 2021 Q3
   <br />
