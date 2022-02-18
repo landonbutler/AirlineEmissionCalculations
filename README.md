@@ -34,3 +34,10 @@
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Created By: [https://www.linkedin.com/in/andy-eskenazi](Andy Eskenazi), [https://landonbutler.github.io/](Landon Butler), [https://www.linkedin.com/in/arnavjoshi64](Arnav Joshi)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
